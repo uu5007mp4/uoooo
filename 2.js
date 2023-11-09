@@ -30,5 +30,5 @@ function sendMessage(webhookURL) {
     fetch(webhookURL, {
         method: 'POST',
         body: payload,
-    })
-}, 10); // 10ミリ秒ごとに実行（0.01秒）
+    });
+}
